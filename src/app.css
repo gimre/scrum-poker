@@ -1,0 +1,10 @@
+
+:global( body ) {
+    margin: 0;
+}
+
+:global( body ),
+:global( html ),
+:global( [root] ) {
+    height: 100%;
+}

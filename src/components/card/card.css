@@ -1,0 +1,15 @@
+
+@value colors: '../../shared/colors.css';
+
+@value cardFrontColor from colors;
+
+.component {
+    background-color: cardFrontColor;
+    border-radius: 10px;
+    font-size: 64px;
+    height: 100px;
+    line-height: 100px;
+    margin: 10px;
+    text-align: center;
+    width: 75px;
+}

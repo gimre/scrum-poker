@@ -1,0 +1,11 @@
+
+@value colors: '../../shared/colors.css';
+
+@value boardColor from colors;
+
+.component {    
+    background-color: boardColor;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
