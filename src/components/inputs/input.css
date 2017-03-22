@@ -19,5 +19,5 @@
 }
 
 .component + .component > .cell  {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #eee;
 }
