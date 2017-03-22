@@ -26,10 +26,12 @@
     "extract-text-webpack-plugin": "^2.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "regenerator-runtime": "^0.10.3",
     "style-loader": "^0.15.0",
     "webpack": "^2.2.1"
   },
   "devDependencies": {
-    "css-loader": "^0.27.3"
+    "css-loader": "^0.27.3",
+    "webpack-livereload-plugin": "^0.10.0"
   }
 }

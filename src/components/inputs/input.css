@@ -1,0 +1,23 @@
+
+.cell {
+    display: table-cell;
+    padding: 5px;
+}
+
+.cell > :global( label ),
+.cell > :global( input ),
+.cell > :global( select ) {
+    cursor: pointer;
+}
+
+.input {
+    text-align: right;
+}
+
+.component {
+    display: table-row;
+}
+
+.component + .component > .cell  {
+    border-top: 1px solid #ccc;
+}

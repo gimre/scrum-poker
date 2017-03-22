@@ -1,0 +1,8 @@
+
+.component {
+    background-color: white;
+    display: table;
+    margin: 20px auto;
+    padding: 20px;
+    width: 250px;
+}

@@ -1,11 +1,17 @@
 
-@value colors: '../../shared/colors.css';
+@value colors: '../../shared/styles/colors.css';
+@value fonts: '../../shared/styles/fonts.css';
 
 @value cardFrontColor from colors;
+@value cardFontFace from fonts;
 
 .component {
     background-color: cardFrontColor;
+    border: 1px solid black;
     border-radius: 10px;
+    box-shadow: 2px 2px 20px 0px #333;
+    cursor: pointer;
+    font-family: cardFontFace;
     font-size: 64px;
     height: 100px;
     line-height: 100px;
