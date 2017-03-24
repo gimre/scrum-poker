@@ -1,6 +1,6 @@
 
-@value colors: '../../shared/styles/colors.css';
-@value fonts: '../../shared/styles/fonts.css';
+@value colors: '../../libs/styles/colors.css';
+@value fonts: '../../libs/styles/fonts.css';
 
 @value cardFrontColor from colors;
 @value cardFontFace from fonts;

@@ -1,5 +1,5 @@
 
-@value colors: '../../shared/styles/colors.css';
+@value colors: '../../libs/styles/colors.css';
 
 @value boardColor from colors;
 

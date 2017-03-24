@@ -9,7 +9,7 @@ const N = function*( ) {
 }
 
 export const commercial = {
-    generator: function* commercial( ) {
+    generator: function* ( ) {
         const deck = '0.½.1.2.3.5.8.13.20.40.100'.split( '.' )
         for( const v of deck ) {
             yield v
@@ -20,16 +20,13 @@ export const commercial = {
 
 
 export const fibonacci = {
-    generator: function* fibonacci( ) {
+    generator: function* ( ) {
         let a = 1,
             b = 1
 
-        // include 0
+        // include 0 and 1
         yield 0
-
-        // first two numbers
-        yield a
-        yield b
+        yield 1
 
         // rest
         while( true ) {
@@ -42,7 +39,7 @@ export const fibonacci = {
 }
 
 export const playing = {
-    generator: function* playing( ) {
+    generator: function* ( ) {
         const deck = 'A.2.3.5.8.K'.split( '.' )
         for( const v of deck ) {
             yield v
@@ -52,7 +49,7 @@ export const playing = {
 }
 
 export const primes = {
-    generator: function* primes( ) {
+    generator: function* ( ) {
         // 1 is a prime
         yield 1
 
@@ -76,7 +73,7 @@ export const primes = {
 }
 
 export const squares = {
-    generator: function*( ) {
+    generator: function* ( ) {
         let n = 0
 
         while( true ) {

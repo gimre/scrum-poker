@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-import { getUID } from '../../shared/utils.jsx'
+import { getUID } from '../../libs/utils.jsx'
 import {
     cell,
     component,
